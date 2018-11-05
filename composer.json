@@ -1,0 +1,33 @@
+{
+    "name": "sinus/yii2-sinus-semantic-ui",
+    "description": "Semantic UI",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension",
+        "semantic",
+        "semantic-ui"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SINUS",
+            "email": "sinus_22@mail.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "sinus\\semanticUI\\": "src"
+        }
+    },
+    "repositories":[
+        {
+            "type": "git",
+            "url": "https://gitlab.com/sinus22/yii2-semantic-ui.git"
+        }
+    ]
+}
