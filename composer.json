@@ -27,7 +27,7 @@
     "repositories":[
         {
             "type": "git",
-            "url": "https://gitlab.com/sinus22/yii2-semantic-ui.git"
+            "url": "https://github.com/sinus22/yii2-semantic-ui.git"
         }
     ]
 }
