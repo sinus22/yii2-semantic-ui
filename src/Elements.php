@@ -45,7 +45,7 @@ class Elements
      * @param array $options
      * @return string
      */
-    public  function flag($flag, $options = [])
+    public static function flag($flag, $options = [])
     {
         Html::addCssClass($options, $flag . ' flag');
         return Html::tag(ArrayHelper::remove($options, 'tag', 'i'), '', $options);

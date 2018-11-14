@@ -13,7 +13,7 @@ use yii\web\AssetBundle;
 
 class SemanticUIAsset extends AssetBundle
 {
-    public $sourcePath = '@sinus/semanticUI/assets/dist';
+    public $sourcePath = '@bower/semantic/dist';
 
     public $css = [
         'semantic.css',
@@ -23,6 +23,5 @@ class SemanticUIAsset extends AssetBundle
     ];
     public $depends = [
         'yii\web\JqueryAsset',
-        'sinus\semanticUI\assets\SemanticUICSSAsset'
     ];
 }
